@@ -1,11 +1,11 @@
 name: Testing...
 on: [push]
 jobs:
-  Run end-to-end test:
+  End-to-End-test:
     runs-on: ubuntu-latest
     steps:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
       - run: yarn install
-      - run: yarn cypress
+      - run: yarn test
