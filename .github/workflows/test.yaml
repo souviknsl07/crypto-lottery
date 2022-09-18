@@ -1,0 +1,11 @@
+name: Testing...
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: List files in the repository
+        run: |
+          ls ${{ github.workspace }}
+      - run: yarn install
+      - run: yarn cypress

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BigNumber, ethers } from "ethers";
+import { ethers } from "ethers";
 import {
   useAddress,
   useContractCall,
@@ -9,7 +9,6 @@ import toast from "react-hot-toast";
 import {
   Box,
   Button,
-  Container,
   Stack,
   TextField,
   Typography,
@@ -18,9 +17,9 @@ import {
   statsContainerStyles,
   statsStyles,
   textFieldStyles,
-} from "../../theme";
-import { IRowStackProps } from "../../data/interface";
-import { currency } from "../../data/constants";
+} from "../../../theme";
+import { IRowStackProps } from "../../../data/interface";
+import { currency } from "../../../data/constants";
 
 const rowStackProps: IRowStackProps = {
   direction: "row",

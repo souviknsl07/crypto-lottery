@@ -2,11 +2,15 @@ import React from "react";
 import Image from "next/image";
 import { useMetamask } from "@thirdweb-dev/react";
 import { Button, Container, Stack, Typography } from "@mui/material";
+import Head from "next/head";
 
 const Login = () => {
   const connectWithMetamask = useMetamask();
   return (
     <>
+     <Head>
+        <title>Login</title>
+      </Head>
       <Container
         maxWidth={false}
         sx={{
