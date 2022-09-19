@@ -5,7 +5,7 @@ import { Box, Container, Stack, Typography } from "@mui/material";
 import AdminControl from "./AdminControl";
 import WinnerBox from "./WinnerBox";
 import DrawBox from "./DrawBox";
-import TicketBox from "./TicketBox/TicketBox";
+import TicketBox from "./TicketBox";
 import { ethers } from "ethers";
 import { currency } from "../../data/constants";
 
