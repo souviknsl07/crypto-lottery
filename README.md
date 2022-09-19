@@ -28,7 +28,7 @@ This is a fully responsive crypto lottery web app developed using Nextjs, Tailwi
 
 ## License
 
-[MIT](https://github.com/souviknsl07/e-commerce/blob/main/LICENSE)
+[MIT](https://github.com/souviknsl07/crypto-lottery/LICENSE)
 
 ## Contributing
 
