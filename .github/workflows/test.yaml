@@ -13,7 +13,7 @@ jobs:
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
       - name: Cypress run
-        uses: cypress-io/github-action@latest # use the explicit version number
+        uses: cypress-io/github-action@v4 # use the explicit version number
         with:
           # Specify Browser since container image is compile with Firefox
           browser: chrome
